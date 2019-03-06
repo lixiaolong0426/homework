@@ -1,0 +1,121 @@
+*{margin: 0;padding: 0;}
+/* 顶部 */
+.top{
+    width: 100%;
+    height:98px;
+    background: white;
+}
+.logo{
+    margin: auto;
+    left: 5%;right: 0;top: 24.5px;
+    max-width: 100%;
+    height: 50px;
+    position: relative;
+}
+.logo>i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    width: 49px;
+    height: 49px;
+    background-color:#F56600; 
+    background-image: url('../images/mi-logo.png')
+}
+.logo>a{
+    position: absolute;
+    left: 70px;
+    color: #656565;
+    text-decoration: none;
+    font-size: 32.5px;
+
+}
+.logo>p{
+    position: absolute;
+    left: 70px;
+    top:39px;
+    font-size: 10px;
+    color: #656565;
+}
+
+/* container */
+.container{
+    width: 100%;
+    height: 558px;
+    position: relative;
+    background-image: url('../images/小米.jpeg');
+    background-position:center center; 
+    /* background-image: url('../img/小米.jpeg') */
+
+}
+
+.box{
+    width: 410px;
+    height: 524px;
+    font-size: 14px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    background: white;
+}
+.line {
+    width: 1px;
+    height: 24px;
+    margin: 0 35px 0 42px;
+    border: 1px solid #e0e0e0;
+}
+.box-top{
+    width: 410px;
+    height: 83px;
+    text-align: center;
+    line-height: 83px;
+}
+.box-top>a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #666;
+}
+.box-mid{
+    width: 410px;
+    height: 256px;
+}
+.mid-psd>input{
+    box-sizing: border-box;
+    width: 346px;
+    height: 48px;
+    line-height: 22px;
+    color: #C7C7C7;
+    padding: 13px 16px 13px 14px;
+    display: block;
+    margin:0 auto 10px;
+    border: 1px solid #EFEFEF;
+}
+.mid-login>input{
+    background-color: #ff6700;
+    box-sizing: border-box;
+    border: 1px solid  #EFEFEF;
+    width: 348px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin: 14px auto 0px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.mid-register{
+    width: 348px;
+    text-align: center;
+    color: #ff6700;
+    border: 0 none;
+    height: auto;
+    line-height: normal;
+    margin: 0;
+
+}
+.mid-register-right{
+    float: right;
+    margin-right: 
+}
+
+
