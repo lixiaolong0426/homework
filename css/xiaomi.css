@@ -92,12 +92,15 @@
     width: 346px;
     height: 48px;
     line-height: 22px;
-    color: #C7C7C7;
     padding: 13px 16px 13px 14px;
     display: block;
     margin:0 auto 10px;
     border: 1px solid #EFEFEF;
 }
+::-webkit-input-placeholder { 
+    color: #C7C7C7;
+}
+
 .mid-login>input{
     background-color: #ff6700;
     box-sizing: border-box;
@@ -131,11 +134,13 @@
     color: #ff6700;
     text-decoration: none;
     left: 0;
+    font-size: 12px;
 
 }
 .mid-register-right>a{
     color:#A5A5A5;
     text-decoration: none;
+    font-size: 12px;
 }
 .mid-register-right>a:hover{
     color: #ff6700;
@@ -244,6 +249,7 @@ hr{
     text-decoration: none;
     text-align: center;  
     color:#A5A5A5;
+    font-size: 12px;
 }
 .language>ul>li>a:hover{
     color:#6B6B6B;
@@ -252,6 +258,7 @@ hr{
 .bottom-word{
     margin-top: 10px;
     color:#A5A5A5;
+    font-size: 12px;
   }
 
 
