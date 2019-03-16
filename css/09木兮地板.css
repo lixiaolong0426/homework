@@ -1,0 +1,169 @@
+.navbar{
+    margin-left: 10%;
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+    margin-bottom: 0;
+    border-bottom: none;
+
+}  
+.navbar-brand{
+    width: 280px;
+    background: url(../images/09/logo0.png) center no-repeat;
+    height: 80px;
+    padding: 8px;
+    margin-left: -15px;
+    float: left;
+}
+.navbar-right{
+    margin-right: 60px;
+
+}
+.navbar-right>li>a{
+    line-height: 50px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+.select>a{
+    color: #2dae36 !important;
+    border-bottom: 2px solid #2dae36 !important;
+}
+.slide{
+    margin-bottom: 50px;
+}
+
+/* container */
+.container{
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+.characteristic img{
+    width: 30%;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.characteristic .title {
+    font-size: 24px;
+    color: rgb(45, 174, 54);
+}
+.characteristic .essay {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+
+.product-up{
+    height: 42px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #2dae36;
+}
+.product-title{
+    margin-top: 50px;
+    width: 120px;
+    color: white; 
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    background: #2dae36;
+    border-radius: 16px 0 16px 0;
+}
+.product-goods{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.product-goods>div{
+    position: relative;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.product-goods div img {
+    width: 100%;
+}
+
+/* 底部 */
+.bottom{
+    margin-top: 50px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+    background-color: #ddd;
+    text-align: center;
+    color: #666;
+}
+.bottom-up{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.bottom-logo{
+    margin-bottom: 16px;
+}
+.bottom img{
+    width: 100px;
+}
+.changepage{
+    padding-top: 20px;
+}
+.changepage a{
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
+    text-decoration: none;
+}
+.changepage a:hover{
+    color: #2dae36;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.copyright{
+    font-size: 12px;
+    color: #777777;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 2.4em;
+
+}
+.contact{
+    font-size: 10px;
+    line-height: 1.6em;
+    text-align: left !important;
+}
+.contact .iconfont{
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+@media (max-width:768px){
+    .col-xs-12{
+        width:100%;
+        float: left;
+    }
+    .navbar-header>.navbar-brand{
+        width: 80px !important;
+        background: url('../images/09/logo.ico') center no-repeat;
+        background-size: contain;
+        height: 80px;
+        padding: 8px;
+    }
+    .bottom{
+        text-align: left;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .col-sm-6{
+        width:50%;
+        float: left;
+    }
+}
+@media (min-width:993px){
+    .col-md-3{
+        width:25%;
+        float: left;
+    }
+}
