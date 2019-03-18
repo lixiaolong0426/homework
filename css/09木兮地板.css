@@ -28,6 +28,10 @@
     color: #2dae36 !important;
     border-bottom: 2px solid #2dae36 !important;
 }
+.navbar-right>li>a:hover{
+    color: #2dae36 !important;
+    border-bottom: 2px solid #2dae36 ;
+}
 .slide{
     margin-bottom: 50px;
 }
@@ -36,8 +40,8 @@
 .container{
     padding-right: 10%;
     padding-left: 10%;
-    margin-right: auto;
-    margin-left: auto;
+    width: 100%;
+    
     box-sizing: border-box;
 }
 .characteristic img{

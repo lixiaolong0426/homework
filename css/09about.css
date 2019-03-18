@@ -29,6 +29,10 @@
     color: #2dae36 !important;
     border-bottom: 2px solid #2dae36 !important;
 }
+.navbar-right>li>a:hover{
+    color: #2dae36 !important;
+    border-bottom: 2px solid #2dae36 ;
+}
 .slide{
     margin-bottom: 50px;
 }
